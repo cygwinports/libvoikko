@@ -1,0 +1,6 @@
+category: Text
+requires: cygwin libvoikko1 libiconv libmalaga-devel
+external-source: libvoikko
+sdesc: "Finnish language spell-checking library (libdevel)"
+ldesc: "Voikko is a spellchecker, hyphenator and collection of related 
+linguistic data for Finnish language."

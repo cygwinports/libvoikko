@@ -1,0 +1,76 @@
+libvoikko
+------------------------------------------
+Voikko is a spellchecker, hyphenator and collection of related 
+linguistic data for Finnish language.
+
+Runtime requirements:
+  cygwin-1.5.25-11
+  libiconv2-1.11-1
+  libmalaga7-7.12-1
+  suomi-malaga-1.1-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  autoconf2.5-2.61-1
+  automake1.10-1.10.1-1
+  binutils-20060817-1
+  cygport-0.3.9-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  libtool-2.2.2-2
+  make-3.81-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://voikko.sourceforge.net/
+
+Canonical download:
+  http://sourceforge.net/projects/voikko/files
+
+-------------------------------------------
+
+Build instructions:
+  unpack libvoikko-1.6-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./libvoikko-1.6-X.cygport all
+
+This will create:
+  /usr/src/libvoikko-1.6-X-src.tar.bz2
+  /usr/src/libvoikko-1.6-X.tar.bz2
+  /usr/src/libvoikko-devel-1.6-X.tar.bz2
+  /usr/src/libvoikko1-1.6-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary packages:
+
+(libvoikko)
+  /usr/bin/voikkohyphenate.exe
+  /usr/bin/voikkospell.exe
+  /usr/share/doc/libvoikko-1.6/COPYING
+  /usr/share/doc/libvoikko-1.6/ChangeLog
+  /usr/share/doc/libvoikko-1.6/README
+  /usr/share/man/man1/voikkohyphenate.1.gz
+  /usr/share/man/man1/voikkospell.1.gz
+
+(libvoikko1)
+  /usr/bin/cygvoikko-1.dll
+
+(libvoikko-devel)
+  /usr/include/libvoikko/voikko.h
+  /usr/lib/libvoikko.a
+  /usr/lib/libvoikko.dll.a
+  /usr/lib/libvoikko.la
+
+------------------
+
+Port Notes:
+
+----- version 1.6-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
