@@ -1,5 +1,5 @@
 category: Text
-requires: cygwin libvoikko1
+requires: libvoikko1
 sdesc: "Finnish language spell-checking library (utilities)"
 ldesc: "Voikko is a spellchecker, hyphenator and collection of related 
 linguistic data for Finnish language."
