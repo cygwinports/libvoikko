@@ -1,0 +1,17 @@
+NAME="libvoikko"
+VERSION=1.6
+RELEASE=1
+CATEGORY="Libs"
+SUMMARY="Finnish language spell-checking library"
+DESCRIPTION="Voikko is a spellchecker, hyphenator and collection of related
+linguistic data for Finnish language."
+HOMEPAGE="http://voikko.sourceforge.net/"
+SRC_URI="mirror://sourceforge/voikko/libvoikko-${VERSION}.tar.gz"
+
+PKG_NAMES="voikko-tools libvoikko1 libvoikko-devel"
+voikko_tools_CATEGORY="Text"
+voikko_tools_SUMMARY=${SUMMARY/library/tools}
+voikko_tools_CONTENTS="usr/bin/*.exe usr/share/"
+libvoikko1_REQUIRES="suomi-malaga"
+libvoikko1_CONTENTS="usr/bin/cygvoikko-1.dll"
+libvoikko_devel_CONTENTS="usr/include/ usr/lib/"

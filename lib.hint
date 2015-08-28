@@ -1,6 +1,0 @@
-category: Text
-requires: libiconv2 libmalaga7 suomi-malaga
-external-source: libvoikko
-sdesc: "Finnish language spell-checking library (runtime)"
-ldesc: "Voikko is a spellchecker, hyphenator and collection of related 
-linguistic data for Finnish language."
