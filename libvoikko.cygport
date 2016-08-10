@@ -1,5 +1,5 @@
 NAME="libvoikko"
-VERSION=3.7.1
+VERSION=3.8
 RELEASE=1
 CATEGORY="Libs"
 SUMMARY="Finnish language spell-checking library"
